@@ -9,7 +9,7 @@ package Observer_Pattern;
  *
  * @author abdullah
  */
-public class Subsicriber1 implements Observer{
+public class Subscriber1 implements Observer{
 
     @Override
     public void getNotity(String msg) {

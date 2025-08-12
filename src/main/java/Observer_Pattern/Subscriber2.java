@@ -9,11 +9,11 @@ package Observer_Pattern;
  *
  * @author abdullah
  */
-public class Subsicriber3 implements Observer{
+public class Subscriber2 implements Observer{
 
     @Override
     public void getNotity(String msg) {
-        System.out.println("Subsicriber 3 resieved notify " + msg);
+        System.out.println("Subsicriber 2 resieved notify " + msg);
     }
     
 }

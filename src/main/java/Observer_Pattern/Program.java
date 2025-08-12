@@ -14,15 +14,15 @@ import java.util.ArrayList;
 public class Program {
 
     public static void main(String[] args) {
-        ArrayList<Subsicriber1> o1 = new ArrayList<Subsicriber1>();
-        ArrayList<Subsicriber2> o2 = new ArrayList<Subsicriber2>();
-        ArrayList<Subsicriber3> o3 = new ArrayList<Subsicriber3>();
+        ArrayList<Subscriber1> o1 = new ArrayList<Subscriber1>();
+        ArrayList<Subscriber2> o2 = new ArrayList<Subscriber2>();
+        ArrayList<Subscriber3> o3 = new ArrayList<Subscriber3>();
 
         Channel c = new Channel();
         for (int i = 0; i < 20; i++) {
-            o1.add(new Subsicriber1());
-            o2.add(new Subsicriber2());
-            o3.add(new Subsicriber3());
+            o1.add(new Subscriber1());
+            o2.add(new Subscriber2());
+            o3.add(new Subscriber3());
 
             c.subsicribe(o1.get(i));
             c.subsicribe(o2.get(i));
